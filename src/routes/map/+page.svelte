@@ -1,57 +1,4 @@
-<!-- <script>
-    // Initialize an OpenLayers map with full-screen width and height
-    import './files/v6.15.1-dist/ol.js'
-
-    const map = new ol.Map({
-        target: 'map',
-        layers: [
-            // Create a GeoJSON layer and add it to the map
-            new ol.layer.Vector({
-                source: new ol.source.Vector({
-                    url: 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson',
-                    format: new ol.format.GeoJSON(),
-                }),
-                style: function (feature) {
-                    return new ol.style.Style({
-                        stroke: new ol.style.Stroke({
-                            color: '#006a4e', // Set the color to #006a4e
-                            width: 2,
-                        }),
-                        fill: new ol.style.Fill({
-                            color: 'rgba(0, 106, 78, 0.75)', // Set the opacity to 0.75
-                        }),
-                        text: new ol.style.Text({
-                            text: feature.get('ADMIN'), // Display the 'ADMIN' property as text
-                            fill: new ol.style.Fill({
-                                color: '#000', // Text color
-                            }),
-                            stroke: new ol.style.Stroke({
-                                color: '#fff', // Text outline color
-                                width: 2,
-                            }),
-                        }),
-                    });
-                },
-            }),
-        ],
-        view: new ol.View({
-            center: [0, 0],
-            zoom: 1,
-        }),
-    });
-// <script src="./files/v6.15.1-dist/ol.js"></script>
-</script>
-
-
-<main>
-    <div id="map"></div>
-</main>
-
- -->
-
-
-
- <script>
+<script>
     import 'ol/ol.css'; // Import OpenLayers CSS
     import Map from 'ol/Map';
     import View from 'ol/View';
@@ -116,7 +63,7 @@
 <style>
     #map {
         width: 100%;
-        height: 500px; /* Set the desired height here */
+        height: 500px; 
     }
 </style>
 
