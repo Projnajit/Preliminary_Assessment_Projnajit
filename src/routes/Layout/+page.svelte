@@ -13,7 +13,7 @@
                       
                         <div class="bg-blue-400 row-span-3 col-span-2 shadow-xl"><div class="h-60 w-full"></div></div>
                         <div class="bg-rose-100 row-span-5 col-span-4 shadow-xl"><div class="h-60  w-full"></div></div>
-                        <div class="bg-blue-300 row-span-2 col-span-6 shadow-xl"><div class="h-60  w-full"></div></div>
+                        <div class="bg-sky-400 row-span-2 col-span-6 shadow-xl"><div class="h-60  w-full"></div></div>
                         <div class="bg-yellow-100 row-span-4 col-span-4 shadow-xl"><div class="h-60  w-full"></div></div>
                         <div class="bg-emerald-400 row-span-4 col-span-2 shadow-xl"><div class="h-60  w-full"></div></div>
                         <div class="bg-teal-400 row-span-2 col-span-2 shadow-xl"><div class="h-60  w-full"></div></div>
@@ -21,8 +21,8 @@
                     </div> 
     
                   
-                     <div class="sm:hidden grid grid-cols-4">
-                        <div class="bg-rose-100 row-span-3 col-span-4 shadow-xl"><div class="h-80"></div></div>
+                     <div class="sm:hidden grid grid-cols-4 custom-full-height">
+                        <div class="bg-rose-100 row-span-3 col-span-4 shadow-xl"><div class="h-80" ></div></div>
                         <div class="bg-yellow-100 row-span-3 col-span-4 shadow-xl"><div class="h-80"></div></div>
                     </div>
                 </div>
@@ -43,9 +43,13 @@
         width: 100%;
     }
     .max-w-7xl-no-margin{
+        height: 100%;
         margin: 0;
         padding: 0;
     }
 
-
+    .custom-full-height{
+        margin: 0;
+        padding: 0;
+    }
 </style>

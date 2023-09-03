@@ -1,5 +1,5 @@
 <script>
-    import TailwindCss from "../TailwindCSS.svelte";
+  
 </script>
 
 <section class="text-gray-600 body-font">

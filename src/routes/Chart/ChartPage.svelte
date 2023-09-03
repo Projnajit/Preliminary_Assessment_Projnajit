@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import PolarChart from "./PolarChart.svelte";
     import countryDataStore from "./store/countryDataStore";
+    import TailwindCss from "../../TailwindCSS.svelte";
   
     onMount(async () => {
       await $countryDataStore.fetchCountryData();
