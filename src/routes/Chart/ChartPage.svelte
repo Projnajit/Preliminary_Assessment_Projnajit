@@ -122,6 +122,7 @@
         width: 100%;
         border-collapse: collapse;
         border: 1px solid #ccc;
+        border-radius: 10px;
     }
 
     .country-table th,
@@ -129,6 +130,7 @@
         padding: 10px;
         text-align: left;
         border: 1px solid #ccc;
+        border-radius: 20px;
         
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -145,16 +147,20 @@
         grid-template-columns: 6fr 3fr;
         gap: 20px;
         padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     }
 
     .chart-container {
         background-color: #fff; 
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
         height: 3%;
         margin-top: 18%;
+    }
+
+    table{
+      border-radius: 10px;
     }
 
 
