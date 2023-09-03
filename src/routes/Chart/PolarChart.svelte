@@ -2,13 +2,13 @@
     import { onMount } from "svelte";
     import { get } from "svelte/store";
     import countryDataStore from "./store/countryDataStore";
-    import Chart from "chart.js"; // Import the specific named export
+    import Chart from "chart.js"; 
       
     onMount(async () => {
-      await $countryDataStore.fetchCountryData(); // Ensure data is fetched
+      await $countryDataStore.fetchCountryData(); 
       const ctx = document.getElementById("polarChart").getContext("2d");
       
-      const { countries } = get(countryDataStore); // Destructure the countries array
+      const { countries } = get(countryDataStore); 
       
       console.log(countries);
       

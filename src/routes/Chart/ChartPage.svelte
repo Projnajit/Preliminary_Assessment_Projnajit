@@ -83,12 +83,10 @@
 
 <style>
 
-    /* Style the "UN Member Status" header */
     .status-header {
         text-align: center;
     }
 
-    /* Style for "Yes" and "No" boxes */
     .status-box {
         color: white;
         width: 32px;
@@ -131,7 +129,7 @@
         padding: 10px;
         text-align: left;
         border: 1px solid #ccc;
-        /* font-family: Arial, sans-serif; */
+        
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -151,9 +149,9 @@
     }
 
     .chart-container {
-        background-color: #fff; /* Set background color for the chart container */
+        background-color: #fff; 
         padding: 20px;
-        border-radius: 10px; /* Add border radius for a rounded appearance */
+        border-radius: 10px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow */
         height: 3%;
         margin-top: 18%;
