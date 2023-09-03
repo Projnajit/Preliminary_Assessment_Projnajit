@@ -1,11 +1,13 @@
 <script>
     import ChartPage from './ChartPage.svelte';
+    // import TailwindCss from '../../TailwindCSS.svelte';
 </script>
+
 
 <main>
     <ChartPage />
 </main>
 
-<style>
-    /* Add your global styling here */
-</style>
+
+
+
