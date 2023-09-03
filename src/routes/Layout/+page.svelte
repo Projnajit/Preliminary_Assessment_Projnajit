@@ -3,19 +3,49 @@
 </script>
 
 
-<div class="min-h-screen flex items-center bg-pink-500">
-    <div class="flex-1 max-w-4xl mx-auto p-10">
-        <ul class="grid grid-cols-12">
-            <li class="bg-blue-400 row-span-3 col-span-2 shadow-xl"><div class="h-24"></div></li>
-            <li class="bg-rose-100 row-span-5 col-span-4 shadow-xl"><div class="h-24"></div></li>
-            <li class="bg-blue-300 row-span-2 col-span-6 shadow-xl"><div class="h-24"></div></li>
-            <li class="bg-yellow-100 row-span-4 col-span-4 shadow-xl"><div class="h-24"></div></li>
-            <li class="bg-emerald-400 row-span-4 col-span-2 shadow-xl"><div class="h-24"></div></li>
-            <li class="bg-teal-400 row-span-2 col-span-2 shadow-xl"><div class="h-24"></div></li>
-            <li class="bg-fuchsia-400 row-span-1 col-span-6 shadow-xl"><div class="h-24"></div></li>    
-        </ul>
+<body>
+    <div class="h-screen bg-white">
+        <div class="max-w-7xl-no-margin mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="h-screen bg-white">
+                <div class="max-w-7xl-no-margin mx-auto px-4 sm:px-6 lg:px-8">
+                   
+                    <div class="hidden sm:grid grid-cols-12">
+                      
+                        <div class="bg-blue-400 row-span-3 col-span-2 shadow-xl"><div class="h-60 w-full"></div></div>
+                        <div class="bg-rose-100 row-span-5 col-span-4 shadow-xl"><div class="h-60  w-full"></div></div>
+                        <div class="bg-blue-300 row-span-2 col-span-6 shadow-xl"><div class="h-60  w-full"></div></div>
+                        <div class="bg-yellow-100 row-span-4 col-span-4 shadow-xl"><div class="h-60  w-full"></div></div>
+                        <div class="bg-emerald-400 row-span-4 col-span-2 shadow-xl"><div class="h-60  w-full"></div></div>
+                        <div class="bg-teal-400 row-span-2 col-span-2 shadow-xl"><div class="h-60  w-full"></div></div>
+                        <div class="bg-fuchsia-400 row-span-1 col-span-6 shadow-xl"><div class="h-60 w-full"></div></div>    
+                    </div> 
+    
+                  
+                     <div class="sm:hidden grid grid-cols-4">
+                        <div class="bg-rose-100 row-span-3 col-span-4 shadow-xl"><div class="h-80"></div></div>
+                        <div class="bg-yellow-100 row-span-3 col-span-4 shadow-xl"><div class="h-80"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+   
+</body>
 
 
 
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .max-w-7xl-no-margin{
+        margin: 0;
+        padding: 0;
+    }
+
+
+</style>
